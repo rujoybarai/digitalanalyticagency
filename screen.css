@@ -1,0 +1,146 @@
+@media (max-width:786px){
+    html{
+        font-size: 55%;
+    }
+    .navber{
+        width: 100%;
+        height: auto;
+       
+    }
+    .nav-btn{
+        right: 1rem;
+        
+        
+    }
+   
+    .banner{
+        width: 100%;
+        height: 60rem;
+       
+        
+    }
+    .Text-box{
+       max-height:60%;
+        max-width: 60%;
+    margin-top: -50%;
+    flex: 70%;
+    left: 3rem;
+    
+    }
+   .second-text{
+    margin-top:4rem;
+    font-size: 5rem;
+     left:3rem ;
+   }
+   .first-text{
+    font-size: 7rem;
+    left: 8rem;
+   
+   }
+   .download{
+    margin-top: -20%;
+    margin-left: 3rem;
+    width: 50%;
+   }
+   .logo-2{
+    margin-left: 55rem;
+    margin-top: -35rem;
+   }
+   .banner-2{
+    width: 100%;
+    height: 100rem;
+    margin-top: 25rem;
+   }
+   .service-box{
+        margin-top: -100rem;
+   }
+   .content{
+      flex: 100%;
+      max-width: 100%;
+      flex-wrap: wrap;
+       gap: 10%;
+   }
+}
+
+@media (max-width:480px){
+     html{
+        font-size: 45%;
+    }
+    .navber{
+        width:100%;
+        height: auto;
+         display:flex;
+        flex-direction: column;
+      align-items: center;
+       
+    }
+    .nav-btn {
+        position: relative;
+     
+     width: 100%;
+     flex: none;
+    
+     
+  
+        
+        
+    }
+    .nav-btn a,button{
+         justify-content: space-evenly;
+         margin-bottom: 1rem;
+          
+    }
+   
+    .banner{
+        width: 100%;
+        height: 60rem;
+       
+        
+    }
+    .Text-box{
+       max-height:60%;
+        max-width: 60%;
+    margin-top: -70%;
+    flex: 70%;
+    left: 2rem;
+    
+    }
+   .second-text{
+    margin-top:4rem;
+    font-size: 5rem;
+     left:6rem ;
+   }
+   .first-text{
+    font-size: 7rem;
+    left: 4rem;
+   
+   }
+   .download{
+    margin-top: 5%;
+    margin-left: 3rem;
+    width: 60%;
+   }
+   .logo-2{
+    margin-left: 35rem;
+    margin-top: -45rem;
+   }
+   .banner-2{
+    width: 100%;
+    height: 100rem;
+    margin-top: 17rem;
+   }
+   .service-box{
+        margin-top: -100rem;
+   }
+   .content{
+      flex: 50%;
+      
+      width: 100%;
+      flex-wrap: wrap;
+       gap: 5%;
+   }
+   .content-box{
+    border-top-right-radius: 20%;
+   
+   }
+}
