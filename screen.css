@@ -120,11 +120,6 @@
     margin-left: 3rem;
     width: 60%;
    }
-   .download button:active{
-   opacity: 0.5;
-   color: white;
-   background-color:rgb(131, 64, 195) ;
-   }
    .logo-2{
     margin-left: 35rem;
     margin-top: -45rem;
@@ -132,7 +127,7 @@
    .banner-2{
     width: 100%;
     height: 100rem;
-    margin-top: 15rem;
+    margin-top: 17rem;
    }
    .service-box{
         margin-top: -100rem;
