@@ -1,0 +1,115 @@
+@media (max-width:780px){
+    
+    .navber{
+        width: 100%;
+        height: auto;
+       
+    }
+    .nav-btn{
+        right: 5px;
+        width: 70%;
+        
+        
+    }
+   
+    .banner{
+        width: 100%;
+        height: 1100px;
+       
+        
+    }
+    .service-box{
+        max-width: 50%;
+        margin-top: -135%;
+    }
+    #content{
+        max-width: fit-content;
+        margin-top: -20%;
+    }
+   .pricing-box{
+        max-width: 30%;
+        max-height: 80%;
+        font-size: 80%;
+        padding: auto;
+    }
+   .pricing-box button{
+        max-width: 50%;
+        margin-top: -28%;
+    }
+    
+}
+
+@media (max-width:480px){
+    
+    .navber{
+        width:100%;
+        height: auto;
+         display:flex;
+        flex-direction: column;
+      align-items: center;
+       
+    }
+    .nav-btn {
+        position: relative;
+     
+     width: 100%;
+     flex: none;
+     left: 5px;
+    
+     
+  
+        
+        
+    }
+    .nav-btn a,button{
+         justify-content: space-evenly;
+         margin-bottom: 10px;
+          
+    }
+   
+    .banner{
+        width: 100%;
+        height: 2500px;
+       
+        
+   
+    }
+      .service-box{
+        max-width: 30%;
+        margin-top: -530%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-box .text{
+        width:fit-content;
+        height: 40%;
+    }
+    #content{
+        max-width: fit-content;
+        margin-top: 30%;
+        display: flex;
+        flex-direction: column;
+            margin-left: auto;
+        margin-right: auto;
+      
+        gap: 5%;
+
+    }
+   .pricing-box{
+        max-width: 60%;
+        max-height: 80%;
+        font-size: 80%;
+        padding: auto;
+        margin-left: auto;
+        margin-right: auto;
+      
+        
+    }
+     
+   .pricing-box button{
+        max-width: 50%;
+        margin-top: -28%;
+    }
+
+}

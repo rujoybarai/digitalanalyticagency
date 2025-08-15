@@ -1,0 +1,152 @@
+@media (max-width:780px){
+    
+    .navber{
+        width: 100%;
+        height: auto;
+       
+    }
+    .nav-btn{
+        right: 5px;
+        width: 70%;
+        
+        
+    }
+   
+    .banner{
+        width: 100%;
+        height: 1100px;
+       
+        
+    }
+    .box{
+        max-width: fit-content;
+        display: flex;
+        
+        align-items: center;
+        margin-top: -140%;
+        
+    }
+    .img-box{
+        width: 50%;
+        margin-top: 10rem;
+        margin-left: 20px;
+    }
+    .img-box img{
+       
+        width: 100%;
+        object-fit: cover;
+    }
+     .box .text-box{
+        width: 60%;
+    }
+    .box2{
+        width:100%;
+        font-size: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .box2 div{
+        height: 50%;
+        width: 60%;
+        
+       
+        
+    }
+   
+    
+}
+
+@media (max-width:480px){
+    
+    .navber{
+        width:100%;
+        height: auto;
+         display:flex;
+        flex-direction: column;
+      align-items: center;
+       
+    }
+    .nav-btn {
+        position: relative;
+     
+     width: 100%;
+     flex: none;
+     left: 5px;
+    
+     
+  
+        
+        
+    }
+    .nav-btn a,button{
+         justify-content: space-evenly;
+         margin-bottom: 10px;
+          
+    }
+  .banner{
+        width: 100%;
+        height: 1200px;
+       
+        
+    }
+    .box{
+        max-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        margin-top: -290%;
+        
+        
+    }
+    .img-box{
+        width: 50%;
+        margin-top: 10rem;
+        margin-left: 20px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .img-box img{
+       
+        width: 100%;
+        object-fit: cover;
+    }
+     .box .text-box,p{
+        width: 80%;
+        font-size: 100%;
+        
+    }
+    .text-box{
+          margin-left: auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    .text-box button{
+          margin-left: auto;
+        margin-right:auto;
+    }
+    .box2{
+        width:100%;
+        font-size: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 400px;
+    }
+
+    .box2 div{
+        height: 50%;
+        width: 60%;
+        
+       
+        
+    }
+   
+
+      
+}
