@@ -1,0 +1,80 @@
+@media (max-width:780px) {
+    .navber{
+        width: 100%;
+        height: auto;
+       
+    }
+    .nav-btn{
+        right: 10px;
+        width: 70%;
+
+        
+        
+    }
+   
+    .banner{
+        width: 100%;
+        height: 900px;
+       
+        
+    }
+    .box{
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .Box-2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .navber{
+        width:100%;
+        height: auto;
+         display:flex;
+        flex-direction: column;
+      align-items: center;
+       
+    }
+    .nav-btn {
+        position: relative;
+     
+     width: 100%;
+     flex: none;
+    
+     
+  
+        
+        
+    }
+    .nav-btn a,button{
+         justify-content: space-evenly;
+         margin-bottom: 1rem;
+          
+    }
+   
+   
+       
+        
+    .banner{
+        width: 100%;
+        height: 900px;
+       
+        
+    }
+    .box{
+       margin-left: auto;
+       margin-right: auto;
+     
+  
+      
+      
+    }
+   
+    .Box-2{
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+}
